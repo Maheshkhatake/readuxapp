@@ -8,10 +8,10 @@ function BookContainer() {
    
    
    ;
-   
+
   return (
     <div>
-      <h>no of Books:{noOfBooks}</h>
+      <h>no of Books are available:{noOfBooks}</h>
       <button onClick={()=>(dispatch(purchase_book()))}>Buy Book</button>
     </div>
   )
